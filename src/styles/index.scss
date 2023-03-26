@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+@mixin btn{
+    background-color: $primary-color;
+    width: 150px;
+    height: 55px;
+    border-radius: 10px;
+    color: $primary-color-light;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: $font-family-titles;
+    font-weight: $font-weight-semibold;
+    transition: 0.25s;
+    &:hover{
+      background-color: $secondary-button-color;
+      color: $primary-color;
+    }
+  }
+
+@mixin input{
+    padding-left: 50px;
+    height: 40px;
+    width: 80%;
+    font-size: 14px;
+    color: $form-text-color;
+    background: url('../../public/img/search.png') no-repeat left 20px center #FFFFFF;
+    border-radius: 5px;
+    border: 1px $form-text-color solid;
+    outline: none;
+    &::placeholder{
+        font-size: 14px;
+        color: $form-text-color;
+    }
+}
+
+$primary-color: #103C6B;
+$secondary-color: #370665;
+$primary-button-color: #29BEFF;
+$secondary-button-color: #65BC7B;
+$primary-color-light: #EDF5F7;
+$form-text-color: #9ea0a4;
+
+
+$primary-color-title-font: #370665;
+$primary-color-font: #26303A;
+$secundary-color-font: #EDF5F7;
+
+
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+$font-family-general: 'Montserrat', sans-serif;
+$font-family-titles:'Rubik', sans-serif;
+
+
+:root {
+    font-family: $font-family-general;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    list-style: none;
+    color: $primary-color-font;
+    font-family: $font-family-general;
+  }
+
+
+body{
+    width: 100%;
+    @media (min-width: 2000px) and (orientation: landscape){
+
+            width: 2000px;
+            margin-left: calc((100vw - 2000px)/2);
+    }
+}

@@ -1,0 +1,50 @@
+@use '../styles/index.scss' as main;
+
+.menuDrop{
+    div.nav__option{
+        i.bi-chevron-down{
+            margin-left: 5px;
+        }
+    }
+    .menuDrop__label{
+        z-index: 5;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        width: 170px;
+        height: auto;
+        background-color: main.$primary-color-light;
+        border-radius: 10px;
+        padding: 10px 0;
+        .menuDrop__option{
+            z-index: 5;
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            color: main.$primary-color;
+            height: 25px;
+            padding: 0 25px;
+            transition: 0.25s;
+            &:hover{
+                background: main.$primary-color;
+                color: main.$primary-color-light;
+            }
+        }
+    }
+    @media (max-width: 1000px) {
+        div.nav__option{
+            i.bi-chevron-down{
+                font-size: 12px;
+            }
+        }
+        .menuDrop__label{
+            width: 100%;
+            top: 25px;
+            left: -30px;
+            border-radius: 0;
+            padding: 0 60px;
+            background: #FFFFFF;
+        }
+    }
+}
