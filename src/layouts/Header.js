@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { setFilter, setSearch } from '../actions/actions.js'
+import { setFilter, setSearch, setSelectedGenre } from '../actions/actions.js'
 import '../styles/header.scss'
 import DropDownGenre from "../components/DropDownGenre.js";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 
 
@@ -19,6 +20,7 @@ const Header = () =>{
 
 
     const dispatch = useDispatch();
+    const navigate = useNavigate();
 
     function handleFilternClick(event){
         const option = event.currentTarget.dataset.value;
@@ -68,10 +70,17 @@ const handleInputChange = (event)=> {
 
 }
 
+function handleNavigateToHome(){
+    dispatch(setFilter('ALL'));
+    dispatch(setSelectedGenre(''));
+    dispatch(setSearch(''))
+    navigate("/");
+}
+
 
 return (
     <div className="navbar">
-        <Link to='/'><img src="/img/logo.png" alt="logo"/></Link>
+        <div onClick={handleNavigateToHome}><img src="/img/logo.png" alt="logo"/></div>
         <nav>
             <ul className={`nav__label ${isInputOpen ? "open" : ""}`}>
                 <input type={"text"} placeholder="Search..." value={searchValue} onChange={handleInputChange}  className="inputMob"/>

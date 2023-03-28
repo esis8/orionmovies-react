@@ -12,7 +12,7 @@ const NotFound = () =>{
 
     return (
 
-        <div className="notFound">
+        <div className="notFoundPage">
             <h2>Movie or Series not found!</h2>
             <button onClick={handleAcceptClick}>GO HOME</button>
         </div>

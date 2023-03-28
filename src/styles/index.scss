@@ -34,19 +34,21 @@
 }
 
 @mixin pop{
-  position: absolute;
+  position: fixed;
   z-index: 20;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   top: 0;
   backdrop-filter: blur(2px);
   div{
+    position: sticky;
+    top: calc(50vh - 150px);
+    left: calc(50vw - 140px);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: auto;
-    margin-top: 300px;
     width: 280px;
     border-radius: 10px;
     background-color: $primary-color-title-font;

@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import '../styles/addForm.scss';
+import { setFilter, setSearch, setSelectedGenre } from '../actions/actions.js'
 import { useNavigate } from "react-router-dom";
+import { useDispatch } from "react-redux";
 
 
 const AddForm = () =>{
@@ -10,6 +12,8 @@ const AddForm = () =>{
 
     const [popUp, SetPopUp] = useState(false);
     const navigate = useNavigate();
+
+    const dispatch = useDispatch();
 
     const [formData, setFormData] = useState({
         name: '',
@@ -52,6 +56,9 @@ const AddForm = () =>{
 
   function handleAcceptClick(){
     SetPopUp(false);
+    dispatch(setFilter('ALL'));
+    dispatch(setSelectedGenre(''));
+    dispatch(setSearch(''))
     navigate("/");
   }
     

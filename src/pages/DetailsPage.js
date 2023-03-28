@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import { setFilter, setSearch, setSelectedGenre } from '../actions/actions.js'
+import { useDispatch } from "react-redux";
 import '../styles/detalilsPage.scss'
 
 function DetailsPage(){
@@ -10,6 +12,7 @@ function DetailsPage(){
     const [details, setDetails] = useState([])
     const [isLoading, setIsLoading] = useState(false);
     const [popUp, SetPopUp] = useState(false);
+    const dispatch = useDispatch();
 
     useEffect(()=>{
 
@@ -33,6 +36,9 @@ function DetailsPage(){
 
     function handleAcceptClick(){
         SetPopUp(false);
+        dispatch(setFilter('ALL'));
+        dispatch(setSelectedGenre(''));
+        dispatch(setSearch(''))
         navigate("/");
       }
 
