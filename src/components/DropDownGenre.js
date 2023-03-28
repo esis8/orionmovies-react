@@ -6,7 +6,7 @@ import '../styles/dropdowngenre.scss'
 
 function DropDownGenre(){
 
-
+    const genres = ['All', 'Action', 'Adventure', 'Animation', 'Comedy', 'Crime', 'Documentary', 'Drama', 'Family', 'Fantasy', 'History', 'Horror', 'Music', 'Mystery', 'Romance', 'Science', 'Fiction', 'Thriller', 'War', 'Western'];
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -24,34 +24,15 @@ function DropDownGenre(){
     }
 
     return(
-        <div className="menuDrop" onClick={handleMenuClick}>
-            <div className="nav__option">{selectedGenre === "" ? "GENRE" : selectedGenre.toUpperCase()} <i className="bi bi-chevron-down"></i></div>
+        <li className={`nav__option menuDrop`} onClick={handleMenuClick}>
+            {selectedGenre === "" ? "GENRE" : selectedGenre.toUpperCase()} <i className="bi bi-chevron-down"></i>
             {isMenuOpen ?             
                 <ul className="menuDrop__label">
-                    <li className="menuDrop__option" data-value="" onClick={handleOptionClick}>All</li>
-                    <li className="menuDrop__option" data-value="Action" onClick={handleOptionClick}>Action</li>
-                    <li className="menuDrop__option" data-value="Adventure" onClick={handleOptionClick}>Adventure</li>
-                    <li className="menuDrop__option" data-value="Animation" onClick={handleOptionClick}>Animation</li>
-                    <li className="menuDrop__option" data-value="Comedy" onClick={handleOptionClick}>Comedy</li>
-                    <li className="menuDrop__option" data-value="Crime" onClick={handleOptionClick}>Crime</li>
-                    <li className="menuDrop__option" data-value="Documentary" onClick={handleOptionClick}>Documentary</li>
-                    <li className="menuDrop__option" data-value="Drama" onClick={handleOptionClick}>Drama</li>
-                    <li className="menuDrop__option" data-value="Family" onClick={handleOptionClick}>Family</li>
-                    <li className="menuDrop__option" data-value="Fantasy" onClick={handleOptionClick}>Fantasy</li>
-                    <li className="menuDrop__option" data-value="History" onClick={handleOptionClick}>History</li>
-                    <li className="menuDrop__option" data-value="Horror" onClick={handleOptionClick}>Horror</li>
-                    <li className="menuDrop__option" data-value="Music" onClick={handleOptionClick}>Music</li>
-                    <li className="menuDrop__option" data-value="Mystery" onClick={handleOptionClick}>Mystery</li>
-                    <li className="menuDrop__option" data-value="Romance" onClick={handleOptionClick}>Romance</li>
-                    <li className="menuDrop__option" data-value="Science" onClick={handleOptionClick}>Science</li>
-                    <li className="menuDrop__option" data-value="Fiction" onClick={handleOptionClick}>Fiction</li>
-                    <li className="menuDrop__option" data-value="TV" onClick={handleOptionClick}>TV</li>
-                    <li className="menuDrop__option" data-value="Movie" onClick={handleOptionClick}>Movie</li>
-                    <li className="menuDrop__option" data-value="Thriller" onClick={handleOptionClick}>Thriller</li>
-                    <li className="menuDrop__option" data-value="War" onClick={handleOptionClick}>War</li>
-                    <li className="menuDrop__option" data-value="Western" onClick={handleOptionClick}>Western</li>
+                {genres.map((genre)=>(
+                        <li className="menuDrop__option" data-value={genre === "All" ? "" : genre} onClick={handleOptionClick}>{genre}</li> 
+                    ))}
                 </ul>: ""}
-        </div>
+        </li>
     )
 
 }

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 import '../styles/home.scss'
 
 const Home = () =>{
@@ -55,7 +56,7 @@ const Home = () =>{
             }
             setIsLoading(false);
 
-        },2000)
+        },1000)
 
     },[dataList, selectFilter, selectedGenre, searchValue])
 
@@ -96,16 +97,17 @@ const Home = () =>{
                         {filteredList.length === 0 && selectedGenre !== "" ?(
                             <div className="notFound">
                                 <h2>No movies/series were found for this genre, if you want to add one click here.</h2>
-                                <button>Add Movie/Serie</button>
+                                <Link to='/add-content'><button>Add Movie/Serie</button></Link>
+                                
                             </div>):""}
 
                         {filteredList.slice(0, numLoaded).map(data => (
-                        <div key={data.id} className="card">
+                        <Link key={data.id} className="card" to={`/${data.type}/${data.id}`}>
                         <img src={`${data.url}`} alt="movie/series"/>
                         <h3>{data.name}</h3>
                         <p>{data.releaseDate}</p>
                         <div className="rating">{data.rating}</div>
-                        </div>
+                        </Link>
                          ))}
                         {!allLoaded ? <div onClick={() => setNumLoaded(numLoaded + 8)} className="card button">See More</div> : ""}
 

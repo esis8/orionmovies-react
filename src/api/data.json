@@ -1,369 +1,699 @@
 {
-"data": [{
-    "id": 1,
-    "name": "John Wick: Chapter 4",
-    "rating": 83,
-    "genre": ["Action", "Thriller", "Crime"],
-    "cast&Crew": ["Keanu Reeves", "Donnie Yen", "Bill Skarsgård", "Ian McShane", "Laurence Fishburne"],
-    "releaseDate": "23/3/2023",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
-    "type": "movie"
-},
-{
-    "id": 2,
-    "name": "Scream VI",
-    "rating": 74,
-    "genre": ["Horror", "Mystery", "Thriller"],
-    "cast&Crew": ["Melissa Barrera", "Jenna Ortega", "Jasmin Savoy Brown", "Mason Gooding", "Roger Jackson"],
-    "releaseDate": "9/3/2023",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/aePBN8ffLCHoUXp8lkA5P29CXdx.jpg",
-    "type": "movie"
-},
-{
-    "id": 3,
-    "name": "The Last of Us",
-    "rating": 88,
-    "genre": ["Drama"],
-    "cast&Crew": ["Pedro Pascal", "Bella Ramsey", "Anna Torv", "Lamar Johnson", "Jeffrey Pierce"],
-    "releaseDate": "15/1/2023",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
-    "type": "series"
-},
-{
-    "id": 4,
-    "name": "Grey's Anatomy",
-    "rating": 83,
-    "genre": ["Drama"],
-    "cast&Crew": ["Ellen Pompeo", "James Pickens Jr.", "Chandra Wilson", "Justin Chambers", "Kevin McKidd"],
-    "releaseDate": "27/3/2005",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/daSFbrt8QCXV2hSwB0hqYjbj681.jpg",
-    "type": "series"
-},
-{
-    "id": 5,
-    "name": "Gotham Knights",
-    "rating": 84,
-    "genre": ["Action", "Adventure", "Drama"],
-    "cast&Crew": ["Oscar Morgan", "Fallon Smythe", "Tyler DiChiara", "Olivia Rose Keegan", "Navia Robinson"],
-    "releaseDate": "14/3/2023",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/tbCGmkR3TRDug4weDnHEGCu3WEC.jpg",
-    "type": "series"
-},
-{
-    "id": 6,
-    "name": "Parasite",
-    "rating": 85,
-    "genre": ["Comedy", "Thriller", "Drama"],
-    "cast&Crew": ["Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong", "Choi Woo-shik", "Park So-dam"],
-    "releaseDate": "23/1/2020",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
-    "type": "movie"
-},
-
-
-
-
-
-{
-    "id": 7,
-    "name": "John Wick: Chapter 4",
-    "rating": 83,
-    "genre": ["Action", "Thriller", "Crime"],
-    "cast&Crew": ["Keanu Reeves", "Donnie Yen", "Bill Skarsgård", "Ian McShane", "Laurence Fishburne"],
-    "releaseDate": "23/3/2023",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
-    "type": "movie"
-},
-{
-    "id": 8,
-    "name": "Scream VI",
-    "rating": 74,
-    "genre": ["Horror", "Mystery", "Thriller"],
-    "cast&Crew": ["Melissa Barrera", "Jenna Ortega", "Jasmin Savoy Brown", "Mason Gooding", "Roger Jackson"],
-    "releaseDate": "9/3/2023",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/aePBN8ffLCHoUXp8lkA5P29CXdx.jpg",
-    "type": "movie"
-},
-{
-    "id": 9,
-    "name": "The Last of Us",
-    "rating": 88,
-    "genre": ["Drama"],
-    "cast&Crew": ["Pedro Pascal", "Bella Ramsey", "Anna Torv", "Lamar Johnson", "Jeffrey Pierce"],
-    "releaseDate": "15/1/2023",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
-    "type": "series"
-},
-{
-    "id": 10,
-    "name": "Grey's Anatomy",
-    "rating": 83,
-    "genre": ["Drama"],
-    "cast&Crew": ["Ellen Pompeo", "James Pickens Jr.", "Chandra Wilson", "Justin Chambers", "Kevin McKidd"],
-    "releaseDate": "27/3/2005",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/daSFbrt8QCXV2hSwB0hqYjbj681.jpg",
-    "type": "series"
-},
-{
-    "id": 11,
-    "name": "Gotham Knights",
-    "rating": 84,
-    "genre": ["Action", "Adventure", "Drama"],
-    "cast&Crew": ["Oscar Morgan", "Fallon Smythe", "Tyler DiChiara", "Olivia Rose Keegan", "Navia Robinson"],
-    "releaseDate": "14/3/2023",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/tbCGmkR3TRDug4weDnHEGCu3WEC.jpg",
-    "type": "series"
-},
-{
-    "id": 12,
-    "name": "Parasite",
-    "rating": 85,
-    "genre": ["Comedy", "Thriller", "Drama"],
-    "cast&Crew": ["Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong", "Choi Woo-shik", "Park So-dam"],
-    "releaseDate": "23/1/2020",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
-    "type": "movie"
-},
-{
-    "id": 13,
-    "name": "John Wick: Chapter 4",
-    "rating": 83,
-    "genre": ["Action", "Thriller", "Crime"],
-    "cast&Crew": ["Keanu Reeves", "Donnie Yen", "Bill Skarsgård", "Ian McShane", "Laurence Fishburne"],
-    "releaseDate": "23/3/2023",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
-    "type": "movie"
-},
-{
-    "id": 14,
-    "name": "Scream VI",
-    "rating": 74,
-    "genre": ["Horror", "Mystery", "Thriller"],
-    "cast&Crew": ["Melissa Barrera", "Jenna Ortega", "Jasmin Savoy Brown", "Mason Gooding", "Roger Jackson"],
-    "releaseDate": "9/3/2023",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/aePBN8ffLCHoUXp8lkA5P29CXdx.jpg",
-    "type": "movie"
-},
-{
-    "id": 15,
-    "name": "The Last of Us",
-    "rating": 88,
-    "genre": ["Drama"],
-    "cast&Crew": ["Pedro Pascal", "Bella Ramsey", "Anna Torv", "Lamar Johnson", "Jeffrey Pierce"],
-    "releaseDate": "15/1/2023",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
-    "type": "series"
-},
-{
-    "id": 16,
-    "name": "Grey's Anatomy",
-    "rating": 83,
-    "genre": ["Drama"],
-    "cast&Crew": ["Ellen Pompeo", "James Pickens Jr.", "Chandra Wilson", "Justin Chambers", "Kevin McKidd"],
-    "releaseDate": "27/3/2005",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/daSFbrt8QCXV2hSwB0hqYjbj681.jpg",
-    "type": "series"
-},
-{
-    "id": 17,
-    "name": "Gotham Knights",
-    "rating": 84,
-    "genre": ["Action", "Adventure", "Drama"],
-    "cast&Crew": ["Oscar Morgan", "Fallon Smythe", "Tyler DiChiara", "Olivia Rose Keegan", "Navia Robinson"],
-    "releaseDate": "14/3/2023",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/tbCGmkR3TRDug4weDnHEGCu3WEC.jpg",
-    "type": "series"
-},
-{
-    "id": 18,
-    "name": "Parasite",
-    "rating": 85,
-    "genre": ["Comedy", "Thriller", "Drama"],
-    "cast&Crew": ["Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong", "Choi Woo-shik", "Park So-dam"],
-    "releaseDate": "23/1/2020",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
-    "type": "movie"
-},
-{
-    "id": 19,
-    "name": "John Wick: Chapter 4",
-    "rating": 83,
-    "genre": ["Action", "Thriller", "Crime"],
-    "cast&Crew": ["Keanu Reeves", "Donnie Yen", "Bill Skarsgård", "Ian McShane", "Laurence Fishburne"],
-    "releaseDate": "23/3/2023",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
-    "type": "movie"
-},
-{
-    "id": 20,
-    "name": "Scream VI",
-    "rating": 74,
-    "genre": ["Horror", "Mystery", "Thriller"],
-    "cast&Crew": ["Melissa Barrera", "Jenna Ortega", "Jasmin Savoy Brown", "Mason Gooding", "Roger Jackson"],
-    "releaseDate": "9/3/2023",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/aePBN8ffLCHoUXp8lkA5P29CXdx.jpg",
-    "type": "movie"
-},
-{
-    "id": 21,
-    "name": "The Last of Us",
-    "rating": 88,
-    "genre": ["Drama"],
-    "cast&Crew": ["Pedro Pascal", "Bella Ramsey", "Anna Torv", "Lamar Johnson", "Jeffrey Pierce"],
-    "releaseDate": "15/1/2023",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
-    "type": "series"
-},
-{
-    "id": 22,
-    "name": "Grey's Anatomy",
-    "rating": 83,
-    "genre": ["Drama"],
-    "cast&Crew": ["Ellen Pompeo", "James Pickens Jr.", "Chandra Wilson", "Justin Chambers", "Kevin McKidd"],
-    "releaseDate": "27/3/2005",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/daSFbrt8QCXV2hSwB0hqYjbj681.jpg",
-    "type": "series"
-},
-{
-    "id": 23,
-    "name": "Gotham Knights",
-    "rating": 84,
-    "genre": ["Action", "Adventure", "Drama"],
-    "cast&Crew": ["Oscar Morgan", "Fallon Smythe", "Tyler DiChiara", "Olivia Rose Keegan", "Navia Robinson"],
-    "releaseDate": "14/3/2023",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/tbCGmkR3TRDug4weDnHEGCu3WEC.jpg",
-    "type": "series"
-},
-{
-    "id": 24,
-    "name": "Parasite",
-    "rating": 85,
-    "genre": ["Comedy", "Thriller", "Drama"],
-    "cast&Crew": ["Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong", "Choi Woo-shik", "Park So-dam"],
-    "releaseDate": "23/1/2020",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
-    "type": "movie"
-},
-{
-    "id": 25,
-    "name": "John Wick: Chapter 4",
-    "rating": 83,
-    "genre": ["Action", "Thriller", "Crime"],
-    "cast&Crew": ["Keanu Reeves", "Donnie Yen", "Bill Skarsgård", "Ian McShane", "Laurence Fishburne"],
-    "releaseDate": "23/3/2023",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
-    "type": "movie"
-},
-{
-    "id": 26,
-    "name": "Scream VI",
-    "rating": 74,
-    "genre": ["Horror", "Mystery", "Thriller"],
-    "cast&Crew": ["Melissa Barrera", "Jenna Ortega", "Jasmin Savoy Brown", "Mason Gooding", "Roger Jackson"],
-    "releaseDate": "9/3/2023",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/aePBN8ffLCHoUXp8lkA5P29CXdx.jpg",
-    "type": "movie"
-},
-{
-    "id": 27,
-    "name": "The Last of Us",
-    "rating": 88,
-    "genre": ["Drama"],
-    "cast&Crew": ["Pedro Pascal", "Bella Ramsey", "Anna Torv", "Lamar Johnson", "Jeffrey Pierce"],
-    "releaseDate": "15/1/2023",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
-    "type": "series"
-},
-{
-    "id": 28,
-    "name": "Grey's Anatomy",
-    "rating": 83,
-    "genre": ["Drama"],
-    "cast&Crew": ["Ellen Pompeo", "James Pickens Jr.", "Chandra Wilson", "Justin Chambers", "Kevin McKidd"],
-    "releaseDate": "27/3/2005",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/daSFbrt8QCXV2hSwB0hqYjbj681.jpg",
-    "type": "series"
-},
-{
-    "id": 29,
-    "name": "Gotham Knights",
-    "rating": 84,
-    "genre": ["Action", "Adventure", "Drama"],
-    "cast&Crew": ["Oscar Morgan", "Fallon Smythe", "Tyler DiChiara", "Olivia Rose Keegan", "Navia Robinson"],
-    "releaseDate": "14/3/2023",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/tbCGmkR3TRDug4weDnHEGCu3WEC.jpg",
-    "type": "series"
-},
-{
-    "id": 30,
-    "name": "Parasite",
-    "rating": 85,
-    "genre": ["Comedy", "Thriller", "Drama"],
-    "cast&Crew": ["Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong", "Choi Woo-shik", "Park So-dam"],
-    "releaseDate": "23/1/2020",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
-    "type": "movie"
-},
-{
-    "id": 31,
-    "name": "John Wick: Chapter 4",
-    "rating": 83,
-    "genre": ["Action", "Thriller", "Crime"],
-    "cast&Crew": ["Keanu Reeves", "Donnie Yen", "Bill Skarsgård", "Ian McShane", "Laurence Fishburne"],
-    "releaseDate": "23/3/2023",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
-    "type": "movie"
-},
-{
-    "id": 32,
-    "name": "Scream VI",
-    "rating": 74,
-    "genre": ["Horror", "Mystery", "Thriller"],
-    "cast&Crew": ["Melissa Barrera", "Jenna Ortega", "Jasmin Savoy Brown", "Mason Gooding", "Roger Jackson"],
-    "releaseDate": "9/3/2023",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/aePBN8ffLCHoUXp8lkA5P29CXdx.jpg",
-    "type": "movie"
-},
-{
-    "id": 33,
-    "name": "The Last of Us",
-    "rating": 88,
-    "genre": ["Drama"],
-    "cast&Crew": ["Pedro Pascal", "Bella Ramsey", "Anna Torv", "Lamar Johnson", "Jeffrey Pierce"],
-    "releaseDate": "15/1/2023",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
-    "type": "series"
-},
-{
-    "id": 34,
-    "name": "Grey's Anatomy",
-    "rating": 83,
-    "genre": ["Drama"],
-    "cast&Crew": ["Ellen Pompeo", "James Pickens Jr.", "Chandra Wilson", "Justin Chambers", "Kevin McKidd"],
-    "releaseDate": "27/3/2005",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/daSFbrt8QCXV2hSwB0hqYjbj681.jpg",
-    "type": "series"
-},
-{
-    "id": 35,
-    "name": "Gotham Knights",
-    "rating": 84,
-    "genre": ["Action", "Adventure", "Drama"],
-    "cast&Crew": ["Oscar Morgan", "Fallon Smythe", "Tyler DiChiara", "Olivia Rose Keegan", "Navia Robinson"],
-    "releaseDate": "14/3/2023",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/tbCGmkR3TRDug4weDnHEGCu3WEC.jpg",
-    "type": "series"
-},
-{
-    "id": 36,
-    "name": "Parasite",
-    "rating": 85,
-    "genre": ["Comedy", "Thriller", "Drama"],
-    "cast&Crew": ["Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong", "Choi Woo-shik", "Park So-dam"],
-    "releaseDate": "23/1/2020",
-    "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
-    "type": "movie"
-}
-
-]
+  "data": [
+    {
+      "id": 1,
+      "name": "John Wick: Chapter 4",
+      "rating": 83,
+      "genre": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "cast&Crew": [
+        "Keanu Reeves",
+        "Donnie Yen",
+        "Bill Skarsgård",
+        "Ian McShane",
+        "Laurence Fishburne"
+      ],
+      "releaseDate": "2023-03-23",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
+      "type": "movie"
+    },
+    {
+      "id": 2,
+      "name": "Scream VI",
+      "rating": 74,
+      "genre": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "cast&Crew": [
+        "Melissa Barrera",
+        "Jenna Ortega",
+        "Jasmin Savoy Brown",
+        "Mason Gooding",
+        "Roger Jackson"
+      ],
+      "releaseDate": "2023-03-09",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/aePBN8ffLCHoUXp8lkA5P29CXdx.jpg",
+      "type": "movie"
+    },
+    {
+      "id": 3,
+      "name": "The Last of Us",
+      "rating": 88,
+      "genre": [
+        "Drama"
+      ],
+      "cast&Crew": [
+        "Pedro Pascal",
+        "Bella Ramsey",
+        "Anna Torv",
+        "Lamar Johnson",
+        "Jeffrey Pierce"
+      ],
+      "releaseDate": "2023-01-15",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
+      "type": "series"
+    },
+    {
+      "id": 4,
+      "name": "Grey's Anatomy",
+      "rating": 83,
+      "genre": [
+        "Drama"
+      ],
+      "cast&Crew": [
+        "Ellen Pompeo",
+        "James Pickens Jr.",
+        "Chandra Wilson",
+        "Justin Chambers",
+        "Kevin McKidd"
+      ],
+      "releaseDate": "2005-03-27",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/daSFbrt8QCXV2hSwB0hqYjbj681.jpg",
+      "type": "series"
+    },
+    {
+      "id": 6,
+      "name": "Parasite",
+      "rating": 85,
+      "genre": [
+        "Comedy",
+        "Thriller",
+        "Drama"
+      ],
+      "cast&Crew": [
+        "Song Kang-ho",
+        "Lee Sun-kyun",
+        "Cho Yeo-jeong",
+        "Choi Woo-shik",
+        "Park So-dam"
+      ],
+      "releaseDate": "2020-01-23",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+      "type": "movie"
+    },
+    {
+      "id": 7,
+      "name": "John Wick: Chapter 4",
+      "rating": 83,
+      "genre": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "cast&Crew": [
+        "Keanu Reeves",
+        "Donnie Yen",
+        "Bill Skarsgård",
+        "Ian McShane",
+        "Laurence Fishburne"
+      ],
+      "releaseDate": "23/3/2023",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
+      "type": "movie"
+    },
+    {
+      "id": 8,
+      "name": "Scream VI",
+      "rating": 74,
+      "genre": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "cast&Crew": [
+        "Melissa Barrera",
+        "Jenna Ortega",
+        "Jasmin Savoy Brown",
+        "Mason Gooding",
+        "Roger Jackson"
+      ],
+      "releaseDate": "9/3/2023",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/aePBN8ffLCHoUXp8lkA5P29CXdx.jpg",
+      "type": "movie"
+    },
+    {
+      "id": 9,
+      "name": "The Last of Us",
+      "rating": 88,
+      "genre": [
+        "Drama"
+      ],
+      "cast&Crew": [
+        "Pedro Pascal",
+        "Bella Ramsey",
+        "Anna Torv",
+        "Lamar Johnson",
+        "Jeffrey Pierce"
+      ],
+      "releaseDate": "15/1/2023",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
+      "type": "series"
+    },
+    {
+      "id": 10,
+      "name": "Grey's Anatomy",
+      "rating": 83,
+      "genre": [
+        "Drama"
+      ],
+      "cast&Crew": [
+        "Ellen Pompeo",
+        "James Pickens Jr.",
+        "Chandra Wilson",
+        "Justin Chambers",
+        "Kevin McKidd"
+      ],
+      "releaseDate": "27/3/2005",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/daSFbrt8QCXV2hSwB0hqYjbj681.jpg",
+      "type": "series"
+    },
+    {
+      "id": 11,
+      "name": "Gotham Knights",
+      "rating": 84,
+      "genre": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "cast&Crew": [
+        "Oscar Morgan",
+        "Fallon Smythe",
+        "Tyler DiChiara",
+        "Olivia Rose Keegan",
+        "Navia Robinson"
+      ],
+      "releaseDate": "14/3/2023",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/tbCGmkR3TRDug4weDnHEGCu3WEC.jpg",
+      "type": "series"
+    },
+    {
+      "id": 12,
+      "name": "Parasite",
+      "rating": 85,
+      "genre": [
+        "Comedy",
+        "Thriller",
+        "Drama"
+      ],
+      "cast&Crew": [
+        "Song Kang-ho",
+        "Lee Sun-kyun",
+        "Cho Yeo-jeong",
+        "Choi Woo-shik",
+        "Park So-dam"
+      ],
+      "releaseDate": "23/1/2020",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+      "type": "movie"
+    },
+    {
+      "id": 13,
+      "name": "John Wick: Chapter 4",
+      "rating": 83,
+      "genre": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "cast&Crew": [
+        "Keanu Reeves",
+        "Donnie Yen",
+        "Bill Skarsgård",
+        "Ian McShane",
+        "Laurence Fishburne"
+      ],
+      "releaseDate": "23/3/2023",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
+      "type": "movie"
+    },
+    {
+      "id": 14,
+      "name": "Scream VI",
+      "rating": 74,
+      "genre": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "cast&Crew": [
+        "Melissa Barrera",
+        "Jenna Ortega",
+        "Jasmin Savoy Brown",
+        "Mason Gooding",
+        "Roger Jackson"
+      ],
+      "releaseDate": "9/3/2023",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/aePBN8ffLCHoUXp8lkA5P29CXdx.jpg",
+      "type": "movie"
+    },
+    {
+      "id": 15,
+      "name": "The Last of Us",
+      "rating": 88,
+      "genre": [
+        "Drama"
+      ],
+      "cast&Crew": [
+        "Pedro Pascal",
+        "Bella Ramsey",
+        "Anna Torv",
+        "Lamar Johnson",
+        "Jeffrey Pierce"
+      ],
+      "releaseDate": "15/1/2023",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
+      "type": "series"
+    },
+    {
+      "id": 16,
+      "name": "Grey's Anatomy",
+      "rating": 83,
+      "genre": [
+        "Drama"
+      ],
+      "cast&Crew": [
+        "Ellen Pompeo",
+        "James Pickens Jr.",
+        "Chandra Wilson",
+        "Justin Chambers",
+        "Kevin McKidd"
+      ],
+      "releaseDate": "27/3/2005",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/daSFbrt8QCXV2hSwB0hqYjbj681.jpg",
+      "type": "series"
+    },
+    {
+      "id": 17,
+      "name": "Gotham Knights",
+      "rating": 84,
+      "genre": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "cast&Crew": [
+        "Oscar Morgan",
+        "Fallon Smythe",
+        "Tyler DiChiara",
+        "Olivia Rose Keegan",
+        "Navia Robinson"
+      ],
+      "releaseDate": "14/3/2023",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/tbCGmkR3TRDug4weDnHEGCu3WEC.jpg",
+      "type": "series"
+    },
+    {
+      "id": 18,
+      "name": "Parasite",
+      "rating": 85,
+      "genre": [
+        "Comedy",
+        "Thriller",
+        "Drama"
+      ],
+      "cast&Crew": [
+        "Song Kang-ho",
+        "Lee Sun-kyun",
+        "Cho Yeo-jeong",
+        "Choi Woo-shik",
+        "Park So-dam"
+      ],
+      "releaseDate": "23/1/2020",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+      "type": "movie"
+    },
+    {
+      "id": 19,
+      "name": "John Wick: Chapter 4",
+      "rating": 83,
+      "genre": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "cast&Crew": [
+        "Keanu Reeves",
+        "Donnie Yen",
+        "Bill Skarsgård",
+        "Ian McShane",
+        "Laurence Fishburne"
+      ],
+      "releaseDate": "23/3/2023",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
+      "type": "movie"
+    },
+    {
+      "id": 20,
+      "name": "Scream VI",
+      "rating": 74,
+      "genre": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "cast&Crew": [
+        "Melissa Barrera",
+        "Jenna Ortega",
+        "Jasmin Savoy Brown",
+        "Mason Gooding",
+        "Roger Jackson"
+      ],
+      "releaseDate": "9/3/2023",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/aePBN8ffLCHoUXp8lkA5P29CXdx.jpg",
+      "type": "movie"
+    },
+    {
+      "id": 21,
+      "name": "The Last of Us",
+      "rating": 88,
+      "genre": [
+        "Drama"
+      ],
+      "cast&Crew": [
+        "Pedro Pascal",
+        "Bella Ramsey",
+        "Anna Torv",
+        "Lamar Johnson",
+        "Jeffrey Pierce"
+      ],
+      "releaseDate": "15/1/2023",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
+      "type": "series"
+    },
+    {
+      "id": 22,
+      "name": "Grey's Anatomy",
+      "rating": 83,
+      "genre": [
+        "Drama"
+      ],
+      "cast&Crew": [
+        "Ellen Pompeo",
+        "James Pickens Jr.",
+        "Chandra Wilson",
+        "Justin Chambers",
+        "Kevin McKidd"
+      ],
+      "releaseDate": "27/3/2005",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/daSFbrt8QCXV2hSwB0hqYjbj681.jpg",
+      "type": "series"
+    },
+    {
+      "id": 23,
+      "name": "Gotham Knights",
+      "rating": 84,
+      "genre": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "cast&Crew": [
+        "Oscar Morgan",
+        "Fallon Smythe",
+        "Tyler DiChiara",
+        "Olivia Rose Keegan",
+        "Navia Robinson"
+      ],
+      "releaseDate": "14/3/2023",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/tbCGmkR3TRDug4weDnHEGCu3WEC.jpg",
+      "type": "series"
+    },
+    {
+      "id": 24,
+      "name": "Parasite",
+      "rating": 85,
+      "genre": [
+        "Comedy",
+        "Thriller",
+        "Drama"
+      ],
+      "cast&Crew": [
+        "Song Kang-ho",
+        "Lee Sun-kyun",
+        "Cho Yeo-jeong",
+        "Choi Woo-shik",
+        "Park So-dam"
+      ],
+      "releaseDate": "23/1/2020",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+      "type": "movie"
+    },
+    {
+      "id": 25,
+      "name": "John Wick: Chapter 4",
+      "rating": 83,
+      "genre": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "cast&Crew": [
+        "Keanu Reeves",
+        "Donnie Yen",
+        "Bill Skarsgård",
+        "Ian McShane",
+        "Laurence Fishburne"
+      ],
+      "releaseDate": "23/3/2023",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
+      "type": "movie"
+    },
+    {
+      "id": 26,
+      "name": "Scream VI",
+      "rating": 74,
+      "genre": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "cast&Crew": [
+        "Melissa Barrera",
+        "Jenna Ortega",
+        "Jasmin Savoy Brown",
+        "Mason Gooding",
+        "Roger Jackson"
+      ],
+      "releaseDate": "9/3/2023",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/aePBN8ffLCHoUXp8lkA5P29CXdx.jpg",
+      "type": "movie"
+    },
+    {
+      "id": 27,
+      "name": "The Last of Us",
+      "rating": 88,
+      "genre": [
+        "Drama"
+      ],
+      "cast&Crew": [
+        "Pedro Pascal",
+        "Bella Ramsey",
+        "Anna Torv",
+        "Lamar Johnson",
+        "Jeffrey Pierce"
+      ],
+      "releaseDate": "15/1/2023",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
+      "type": "series"
+    },
+    {
+      "id": 28,
+      "name": "Grey's Anatomy",
+      "rating": 83,
+      "genre": [
+        "Drama"
+      ],
+      "cast&Crew": [
+        "Ellen Pompeo",
+        "James Pickens Jr.",
+        "Chandra Wilson",
+        "Justin Chambers",
+        "Kevin McKidd"
+      ],
+      "releaseDate": "27/3/2005",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/daSFbrt8QCXV2hSwB0hqYjbj681.jpg",
+      "type": "series"
+    },
+    {
+      "id": 29,
+      "name": "Gotham Knights",
+      "rating": 84,
+      "genre": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "cast&Crew": [
+        "Oscar Morgan",
+        "Fallon Smythe",
+        "Tyler DiChiara",
+        "Olivia Rose Keegan",
+        "Navia Robinson"
+      ],
+      "releaseDate": "14/3/2023",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/tbCGmkR3TRDug4weDnHEGCu3WEC.jpg",
+      "type": "series"
+    },
+    {
+      "id": 30,
+      "name": "Parasite",
+      "rating": 85,
+      "genre": [
+        "Comedy",
+        "Thriller",
+        "Drama"
+      ],
+      "cast&Crew": [
+        "Song Kang-ho",
+        "Lee Sun-kyun",
+        "Cho Yeo-jeong",
+        "Choi Woo-shik",
+        "Park So-dam"
+      ],
+      "releaseDate": "23/1/2020",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+      "type": "movie"
+    },
+    {
+      "id": 31,
+      "name": "John Wick: Chapter 4",
+      "rating": 83,
+      "genre": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "cast&Crew": [
+        "Keanu Reeves",
+        "Donnie Yen",
+        "Bill Skarsgård",
+        "Ian McShane",
+        "Laurence Fishburne"
+      ],
+      "releaseDate": "23/3/2023",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
+      "type": "movie"
+    },
+    {
+      "id": 32,
+      "name": "Scream VI",
+      "rating": 74,
+      "genre": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "cast&Crew": [
+        "Melissa Barrera",
+        "Jenna Ortega",
+        "Jasmin Savoy Brown",
+        "Mason Gooding",
+        "Roger Jackson"
+      ],
+      "releaseDate": "9/3/2023",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/aePBN8ffLCHoUXp8lkA5P29CXdx.jpg",
+      "type": "movie"
+    },
+    {
+      "id": 33,
+      "name": "The Last of Us",
+      "rating": 88,
+      "genre": [
+        "Drama"
+      ],
+      "cast&Crew": [
+        "Pedro Pascal",
+        "Bella Ramsey",
+        "Anna Torv",
+        "Lamar Johnson",
+        "Jeffrey Pierce"
+      ],
+      "releaseDate": "15/1/2023",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
+      "type": "series"
+    },
+    {
+      "id": 34,
+      "name": "Grey's Anatomy",
+      "rating": 83,
+      "genre": [
+        "Drama"
+      ],
+      "cast&Crew": [
+        "Ellen Pompeo",
+        "James Pickens Jr.",
+        "Chandra Wilson",
+        "Justin Chambers",
+        "Kevin McKidd"
+      ],
+      "releaseDate": "27/3/2005",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/daSFbrt8QCXV2hSwB0hqYjbj681.jpg",
+      "type": "series"
+    },
+    {
+      "id": 35,
+      "name": "Gotham Knights",
+      "rating": 84,
+      "genre": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "cast&Crew": [
+        "Oscar Morgan",
+        "Fallon Smythe",
+        "Tyler DiChiara",
+        "Olivia Rose Keegan",
+        "Navia Robinson"
+      ],
+      "releaseDate": "14/3/2023",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/tbCGmkR3TRDug4weDnHEGCu3WEC.jpg",
+      "type": "series"
+    },
+    {
+      "id": 36,
+      "name": "Parasite",
+      "rating": 85,
+      "genre": [
+        "Comedy",
+        "Thriller",
+        "Drama"
+      ],
+      "cast&Crew": [
+        "Song Kang-ho",
+        "Lee Sun-kyun",
+        "Cho Yeo-jeong",
+        "Choi Woo-shik",
+        "Park So-dam"
+      ],
+      "releaseDate": "23/1/2020",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+      "type": "movie"
+    },
+    {
+      "id": "c70ad675-d441-4ffc-9d49-9d5a2ff77254",
+      "name": "Titanic",
+      "rating": "79",
+      "genre": [
+        "Drama",
+        "Romance"
+      ],
+      "castCrew": [
+        "Leonardo DiCaprio",
+        "Kate Winslet",
+        "Billy Zane",
+        "Kathy Bates",
+        "Frances Fisher"
+      ],
+      "releaseDate": "1998-02-05",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/rBTJZrf5UWaxzg5YJd2eqpeaSvm.jpg",
+      "type": "movie"
+    }
+  ]
 }

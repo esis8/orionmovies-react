@@ -60,6 +60,12 @@ $font-family-titles:'Rubik', sans-serif;
     width: 100%;
 }
 
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -78,7 +84,7 @@ body{
     width: 100%;
     @media (min-width: 2000px) and (orientation: landscape){
 
-            width: 2000px;
-            margin-left: calc((100vw - 2000px)/2);
+      width: 2000px;
+      margin-left: calc((100vw - 2000px)/2);
     }
 }

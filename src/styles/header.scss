@@ -11,7 +11,7 @@
     img{
         cursor: pointer;
     }
-    .mob{
+    .menu__mob{
         display: none;
     }
     nav{
@@ -46,6 +46,22 @@
                 position: relative;
                 .bi-search{
                     color: main.$primary-color;
+                    padding: 0 10px;
+                }
+                button.addItem{
+                    @include main.btn();
+                    width: 50px;
+                    height: 35px;
+                    border-radius: 5px;
+                    i.bi-plus{
+                        color: main.$primary-color-light;
+                        font-size: 20px;
+                    }
+                    &:hover{
+                        i.bi-plus{
+                            color: main.$primary-color;
+                        }
+                    }
                 }
                 @media (min-width: 1001px) {
                 &:hover::before{
@@ -86,6 +102,7 @@
             width: 50%;
             height: 100px;
             display: flex;
+            opacity: 0;
             align-items: center;
             justify-content: center;
             transition: 2s;
@@ -94,6 +111,7 @@
             transition: all 0.5s ease-in-out;
             overflow: hidden;
             transform: translateY(-100px);
+            z-index: -1;
             input{
                 @include main.input();
             }
@@ -101,18 +119,22 @@
                 color: main.$primary-color;
                 cursor: pointer;
                 margin-left: 20px;
+                font-size: 24px;
             }
             @media (max-width: 1000px){
                 display: none;
             }    
         }
         .search.open {
+            opacity: 1;
             transform: translateY(0);
+            z-index: 5;
         }
 
     }
     .login{
         width: 20%;
+        min-width: 250px;
         display: flex;
         align-items: center;
         gap: 20px;
@@ -167,16 +189,35 @@
         .login{
             display: none;
         }
-        .mob{
-            display: inline;
+        .menu__mob{
+            display: flex;
+            button.login__mob{
+                @include main.btn();
+                width: auto;
+                padding: 0 15px;
+                height: 30px;
+                border-radius: 5px;
+                margin-right: 10px;
+                i.bi-person-fill{
+                    color: main.$primary-color-light;
+                }
+                &:hover{
+                    i.bi-person-fill{
+                        color: main.$primary-color;
+                    }
+                }
+            }
             i.bi-x, i.bi-list{
                 font-size: 25px;
                 color: main.$primary-color;
                 cursor: pointer;
             }    
         }
-        .mob.rotate {
+        #mob.rotate {
             animation: rotate 1s linear infinite;
+        }
+        #mob.rotateRevelsal {
+            animation: rotateRevelsal 1s linear infinite;
         }
 
       }
@@ -188,6 +229,15 @@
     }
     100% {
         transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateRevelsal {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
     }
 }
 

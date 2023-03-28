@@ -1,11 +1,12 @@
 @use '../styles/index.scss' as main;
 
-.menuDrop{
-    div.nav__option{
+.nav__option{
+        display: flex;
+        align-items: center;
+        color: main.$primary-color;
         i.bi-chevron-down{
             margin-left: 5px;
         }
-    }
     .menuDrop__label{
         z-index: 5;
         display: flex;
@@ -33,9 +34,9 @@
         }
     }
     @media (max-width: 1000px) {
-        div.nav__option{
-            i.bi-chevron-down{
-                font-size: 12px;
+        .nav__option{
+            &:hover i.bi-chevron-down{
+                color: main.$primary-color-light;
             }
         }
         .menuDrop__label{
@@ -46,5 +47,6 @@
             padding: 0 60px;
             background: #FFFFFF;
         }
+
     }
 }
