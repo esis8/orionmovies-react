@@ -1,17 +1,21 @@
 import React, { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-import '../styles/addForm.scss'
+import '../styles/addForm.scss';
+import { useNavigate } from "react-router-dom";
 
 
 const AddForm = () =>{
 
     const genres = ['Action', 'Adventure', 'Animation', 'Comedy', 'Crime', 'Documentary', 'Drama', 'Family', 'Fantasy', 'History', 'Horror', 'Music', 'Mystery', 'Romance', 'Science', 'Fiction', 'Thriller', 'War', 'Western'];
 
+    const [popUp, SetPopUp] = useState(false);
+    const navigate = useNavigate();
+
     const [formData, setFormData] = useState({
         name: '',
         rating: '',
         genre: [],
-        castCrew: ['', '', '', '', ''],
+        castAndCrew: ['', '', '', '', ''],
         releaseDate: '',
         url: '',
         type: '',
@@ -37,7 +41,7 @@ const AddForm = () =>{
         const { value } = e.target;
         setFormData((prevData) => ({
             ...prevData,
-            castCrew: prevData.castCrew.map((prevValue, i)=>
+            castAndCrew: prevData.castAndCrew.map((prevValue, i)=>
             i=== index ? value: prevValue),}));
         };
 
@@ -45,6 +49,11 @@ const AddForm = () =>{
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
+
+  function handleAcceptClick(){
+    SetPopUp(false);
+    navigate("/");
+  }
     
 
     const handleSubmit = async(e) =>{
@@ -66,14 +75,14 @@ const AddForm = () =>{
                     name: '',
                     rating: '',
                     genre: [],
-                    castCrew: [],
+                    castAndCrew: ['', '', '', '', ''],
                     releaseDate: '',
                     url: '',
                     type: '',
                 });
-                //alert('Movie added successfully!');
+                SetPopUp(true)
             }else{
-                //alert('Error adding movie');
+                console.log("something went wrong");
             }
         }catch(err){
             console.error(err)
@@ -108,7 +117,7 @@ const AddForm = () =>{
                 </label>
                 <fieldset className="form__cast">
                 <legend>Enter 5 main actors.</legend>
-                {formData.castCrew.map((value, index)=>(
+                {formData.castAndCrew.map((value, index)=>(
                     <label key={index} htmlFor={`cast${index + 1}`} > Actor {index + 1}
                         <input  type="text" value={value} onChange={(e)=>handleCastAndCrewChange(e, index)} placeholder="Leonardo DiCaprio"/>
                     </label>
@@ -136,6 +145,17 @@ const AddForm = () =>{
 
             <button type="submit">SUBMIT</button>
             </form>
+
+            {popUp ? 
+            <div className="popUp">
+
+                <div>
+                    <p>Movie/Series added successfully!</p>
+
+                    <button onClick={handleAcceptClick}>Accept</button>
+                </div>
+
+            </div> : ""}
         </div>
     )
 }

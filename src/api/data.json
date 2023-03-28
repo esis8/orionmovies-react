@@ -9,7 +9,7 @@
         "Thriller",
         "Crime"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Keanu Reeves",
         "Donnie Yen",
         "Bill Skarsgård",
@@ -29,7 +29,7 @@
         "Mystery",
         "Thriller"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Melissa Barrera",
         "Jenna Ortega",
         "Jasmin Savoy Brown",
@@ -47,7 +47,7 @@
       "genre": [
         "Drama"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Pedro Pascal",
         "Bella Ramsey",
         "Anna Torv",
@@ -65,7 +65,7 @@
       "genre": [
         "Drama"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Ellen Pompeo",
         "James Pickens Jr.",
         "Chandra Wilson",
@@ -85,7 +85,7 @@
         "Thriller",
         "Drama"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Song Kang-ho",
         "Lee Sun-kyun",
         "Cho Yeo-jeong",
@@ -105,7 +105,7 @@
         "Thriller",
         "Crime"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Keanu Reeves",
         "Donnie Yen",
         "Bill Skarsgård",
@@ -125,7 +125,7 @@
         "Mystery",
         "Thriller"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Melissa Barrera",
         "Jenna Ortega",
         "Jasmin Savoy Brown",
@@ -143,7 +143,7 @@
       "genre": [
         "Drama"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Pedro Pascal",
         "Bella Ramsey",
         "Anna Torv",
@@ -161,7 +161,7 @@
       "genre": [
         "Drama"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Ellen Pompeo",
         "James Pickens Jr.",
         "Chandra Wilson",
@@ -181,7 +181,7 @@
         "Adventure",
         "Drama"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Oscar Morgan",
         "Fallon Smythe",
         "Tyler DiChiara",
@@ -201,7 +201,7 @@
         "Thriller",
         "Drama"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Song Kang-ho",
         "Lee Sun-kyun",
         "Cho Yeo-jeong",
@@ -221,7 +221,7 @@
         "Thriller",
         "Crime"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Keanu Reeves",
         "Donnie Yen",
         "Bill Skarsgård",
@@ -241,7 +241,7 @@
         "Mystery",
         "Thriller"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Melissa Barrera",
         "Jenna Ortega",
         "Jasmin Savoy Brown",
@@ -259,7 +259,7 @@
       "genre": [
         "Drama"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Pedro Pascal",
         "Bella Ramsey",
         "Anna Torv",
@@ -277,7 +277,7 @@
       "genre": [
         "Drama"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Ellen Pompeo",
         "James Pickens Jr.",
         "Chandra Wilson",
@@ -289,26 +289,6 @@
       "type": "series"
     },
     {
-      "id": 17,
-      "name": "Gotham Knights",
-      "rating": 84,
-      "genre": [
-        "Action",
-        "Adventure",
-        "Drama"
-      ],
-      "cast&Crew": [
-        "Oscar Morgan",
-        "Fallon Smythe",
-        "Tyler DiChiara",
-        "Olivia Rose Keegan",
-        "Navia Robinson"
-      ],
-      "releaseDate": "14/3/2023",
-      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/tbCGmkR3TRDug4weDnHEGCu3WEC.jpg",
-      "type": "series"
-    },
-    {
       "id": 18,
       "name": "Parasite",
       "rating": 85,
@@ -317,7 +297,7 @@
         "Thriller",
         "Drama"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Song Kang-ho",
         "Lee Sun-kyun",
         "Cho Yeo-jeong",
@@ -337,7 +317,7 @@
         "Thriller",
         "Crime"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Keanu Reeves",
         "Donnie Yen",
         "Bill Skarsgård",
@@ -357,7 +337,7 @@
         "Mystery",
         "Thriller"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Melissa Barrera",
         "Jenna Ortega",
         "Jasmin Savoy Brown",
@@ -375,7 +355,7 @@
       "genre": [
         "Drama"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Pedro Pascal",
         "Bella Ramsey",
         "Anna Torv",
@@ -393,7 +373,7 @@
       "genre": [
         "Drama"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Ellen Pompeo",
         "James Pickens Jr.",
         "Chandra Wilson",
@@ -413,7 +393,7 @@
         "Adventure",
         "Drama"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Oscar Morgan",
         "Fallon Smythe",
         "Tyler DiChiara",
@@ -433,7 +413,7 @@
         "Thriller",
         "Drama"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Song Kang-ho",
         "Lee Sun-kyun",
         "Cho Yeo-jeong",
@@ -445,26 +425,6 @@
       "type": "movie"
     },
     {
-      "id": 25,
-      "name": "John Wick: Chapter 4",
-      "rating": 83,
-      "genre": [
-        "Action",
-        "Thriller",
-        "Crime"
-      ],
-      "cast&Crew": [
-        "Keanu Reeves",
-        "Donnie Yen",
-        "Bill Skarsgård",
-        "Ian McShane",
-        "Laurence Fishburne"
-      ],
-      "releaseDate": "23/3/2023",
-      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
-      "type": "movie"
-    },
-    {
       "id": 26,
       "name": "Scream VI",
       "rating": 74,
@@ -473,7 +433,7 @@
         "Mystery",
         "Thriller"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Melissa Barrera",
         "Jenna Ortega",
         "Jasmin Savoy Brown",
@@ -491,7 +451,7 @@
       "genre": [
         "Drama"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Pedro Pascal",
         "Bella Ramsey",
         "Anna Torv",
@@ -509,7 +469,7 @@
       "genre": [
         "Drama"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Ellen Pompeo",
         "James Pickens Jr.",
         "Chandra Wilson",
@@ -529,7 +489,7 @@
         "Adventure",
         "Drama"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Oscar Morgan",
         "Fallon Smythe",
         "Tyler DiChiara",
@@ -549,7 +509,7 @@
         "Thriller",
         "Drama"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Song Kang-ho",
         "Lee Sun-kyun",
         "Cho Yeo-jeong",
@@ -569,7 +529,7 @@
         "Thriller",
         "Crime"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Keanu Reeves",
         "Donnie Yen",
         "Bill Skarsgård",
@@ -589,7 +549,7 @@
         "Mystery",
         "Thriller"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Melissa Barrera",
         "Jenna Ortega",
         "Jasmin Savoy Brown",
@@ -607,7 +567,7 @@
       "genre": [
         "Drama"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Pedro Pascal",
         "Bella Ramsey",
         "Anna Torv",
@@ -625,7 +585,7 @@
       "genre": [
         "Drama"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Ellen Pompeo",
         "James Pickens Jr.",
         "Chandra Wilson",
@@ -645,7 +605,7 @@
         "Adventure",
         "Drama"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Oscar Morgan",
         "Fallon Smythe",
         "Tyler DiChiara",
@@ -665,7 +625,7 @@
         "Thriller",
         "Drama"
       ],
-      "cast&Crew": [
+      "castAndCrew": [
         "Song Kang-ho",
         "Lee Sun-kyun",
         "Cho Yeo-jeong",
@@ -684,7 +644,7 @@
         "Drama",
         "Romance"
       ],
-      "castCrew": [
+      "castAndCrew": [
         "Leonardo DiCaprio",
         "Kate Winslet",
         "Billy Zane",
@@ -694,6 +654,24 @@
       "releaseDate": "1998-02-05",
       "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/rBTJZrf5UWaxzg5YJd2eqpeaSvm.jpg",
       "type": "movie"
+    },
+    {
+      "id": "5d7d113f-e31f-448a-b87e-9ea06736c56e",
+      "name": "Succession",
+      "rating": "81",
+      "genre": [
+        "Drama"
+      ],
+      "castAndCrew": [
+        "Jeremy Strong",
+        "Sarah Snook",
+        "Kieran Culkin",
+        "Brian Cox",
+        "Matthew Macfadyen"
+      ],
+      "releaseDate": "2018-06-03",
+      "url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/xyHasySw0HQ4ndRWHvrpRTAsWXd.jpg",
+      "type": "series"
     }
   ]
 }

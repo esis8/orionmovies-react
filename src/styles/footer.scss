@@ -1,0 +1,40 @@
+@use '../styles/index.scss' as main;
+
+.footer{
+    background: linear-gradient(180deg, #370665 0%,#103c6b 100%);
+    width: 100%;
+
+    footer{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 50px 0;
+        hr{
+            width: 100%;
+            border: 1px solid #707070;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            margin: 30px 0;
+            .icons{
+                i.bi-github{
+                margin: 0 5px;
+                color: main.$primary-button-color;
+                cursor: pointer;
+                &:hover{
+                    color: main.$secondary-button-color;
+                }
+            }}
+
+            .rights{
+                p{
+                    color: main.$secondary-button-color;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+}

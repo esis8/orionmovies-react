@@ -68,15 +68,6 @@ const handleInputChange = (event)=> {
 
 }
 
-/* MEJORAR CON EL POST */
-
-function handleKeyDown(event) {
-    if(event.key === 'Enter'){
-        handleInputClick()
-        handleMenuClick()
-    }
-}
-
 
 return (
     <div className="navbar">

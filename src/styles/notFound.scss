@@ -1,0 +1,23 @@
+@use '../styles/index.scss' as main;
+
+.notFound{
+    background: main.$primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: calc(100vh - 280px);
+    h2{
+        color: main.$secundary-color-font;
+        font-family: main.$font-family-titles;
+        font-size: 32px;
+        text-align: center;
+        width: 90%;
+        margin-bottom: 20px
+    }
+    button{
+        @include main.btn();
+        background-color: main.$secondary-button-color;
+        color: main.$primary-color-light;
+    }
+}

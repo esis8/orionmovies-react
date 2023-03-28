@@ -33,6 +33,39 @@
     }
 }
 
+@mixin pop{
+  position: absolute;
+  z-index: 20;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  backdrop-filter: blur(2px);
+  div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 300px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: $primary-color-title-font;
+    padding: 20px 20px;
+    p{
+      color: $primary-color-light;
+      font-weight: $font-weight-medium;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    button{
+      @include btn();
+      background: $secundary-color-font;
+      height: 40px;
+      color: $primary-color;
+  }
+  }
+}
+
 $primary-color: #103C6B;
 $secondary-color: #370665;
 $primary-button-color: #29BEFF;

@@ -1,0 +1,105 @@
+@use '../styles/index.scss' as main;
+
+.detailsPage{
+    background: main.$primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 280px);
+    gap: 50px;
+    section{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        max-width: 500px;
+        padding: 25px;
+        border-radius: 10px;
+        img{
+            border-radius: 10px;
+        }
+        .card.loader{
+            align-self: flex-start;
+            background: #CCC;
+            border-radius: 10px;
+            margin: 50px;
+            width: 80%;
+            height: 600px;
+            transition: 0.25s;
+            animation: loader 1s linear infinite;
+            @media (max-width: 1000px) {
+                align-self: center;
+                height: 400px;
+                width: 280px;
+            }
+        }
+        .loader{
+            align-self: center;
+            background: #CCC;
+            border-radius: 5px;
+            margin: 10px;
+            width: 90%;
+            height: 20px;
+            transition: 0.25s;
+            animation: loader 1s linear infinite;
+
+        }
+        .title.loader{
+            width: 150px;
+            height: 30px;
+            margin: 30px;
+        }
+        h2{
+            color: main.$secundary-color-font;
+            font-family: main.$font-family-titles;
+            font-size: 32px;
+            text-align: center;
+            margin-bottom: 32px;
+            font-weight: main.$font-weight-semibold;
+            @media (max-width: 1000px) {
+                font-size: 18px;
+                margin-bottom: 18px;
+            }
+        }
+        p, span{
+            color: main.$secundary-color-font;
+            font-weight: main.$font-weight-medium;
+            line-height: 30px;
+            
+        }
+        button{
+            @include main.btn();
+            background-color: main.$secondary-button-color;
+            color: main.$primary-color-light;
+            align-self: center;
+            margin-top: 20px;
+            &:hover{
+                background-color: #C00000;
+                color: main.$primary-color-light;
+            }
+        }
+    }
+    @media (max-width: 1000px) {
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 0;
+        section{
+            width: 100%;
+        }
+    }
+    .popUp{
+        @include main.pop();
+    }
+
+}
+
+@keyframes loader {
+    0% {
+        background: #fff;
+    }
+    50% {
+        background: #c0c0c0;
+    }
+    100% {
+        background: #fff;
+    }
+}
